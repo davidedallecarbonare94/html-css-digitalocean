@@ -2,6 +2,11 @@
 body{
     font-family: helvetica, sans-serif;
 }
+.flex_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .white_btn{
     border: 1.5px solid rgba(61, 147, 253, 1);
     background-color: white;
@@ -66,10 +71,55 @@ nav img{
     padding-right: 15px;
     margin-bottom: 2.5px;
 }
+.no_style_right li:last-child{
+    padding-right: 0;
+}
 
 /* jumbotron */
 .jumbotron{
     background-image: url(/assets/img/bg-banner-home.jpg);
 }
+.white_container{
+    background-color: white;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+}
+.form{
+    width: 90%;
+    border: 1px solid;
+    border-color: rgba(122, 122, 122, 0.5);
+    border-radius: 5px;
+    padding: 8px 5px;   
+}
+.google_btn{
+    position: relative;
+}
+.log_btn,
+.google_btn {
+    width: 90%;
+    border: transparent;
+    border-radius: 5px;
+    background-color: transparent;
+    text-align: center;
+    padding: 5px;
+}
+.log_btn {
+    background-color: rgba(87, 154, 255, 1);
+}
+.google_btn{
+    box-shadow: 2px 2px 8px rgba(131, 131, 131, 0.561);
+}
+
+.google_btn img{
+    height: 20px;
+    text-align: right;
+    padding-left: 5px;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+
+
 
 /* /header */
