@@ -29,7 +29,6 @@
 }
 .dbg [class*="col_"] {
     background-color: lightblue;
-    border: 2px solid lightsalmon;
     height: 150px;
 }
 /* 12 columns */
