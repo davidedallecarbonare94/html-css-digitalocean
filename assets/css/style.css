@@ -1,0 +1,24 @@
+/* utilities */
+
+/* color palette */
+.bg-bluejumbo{
+    background: #004AFF;
+}
+.bg_gradientblue{
+    background: linear-gradient(180deg, #0047C5 0%, #001F9A 100%);
+}
+.bg_grey{
+    background-color: rgba(243, 245, 249, 1);
+}
+.bg_footer{
+    background-color: rgba(3, 28, 78, 1);
+}
+.text_lightblue{
+    color: rgba(61, 147, 253, 1);
+}
+.text_darkblue{
+    color: rgba(47, 66, 107, 1);
+}
+.h3_title_darkblue{
+    color: rgba(5, 30, 79, 1);
+}
