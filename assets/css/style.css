@@ -4,11 +4,16 @@ body{
 }
 .flex_container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .marg_bot{
     margin-bottom: 15px;
+}
+.align_cent{
+    text-align: center;
 }
 .white_btn{
     border: 1.5px solid rgba(61, 147, 253, 1);
@@ -41,9 +46,13 @@ body{
 .text_darkblue{
     color: rgba(47, 66, 107, 1);
 }
+.text_grey{
+    color: rgba(127, 138, 163, 1);
+}
 .h3_title_darkblue{
     color: rgba(5, 30, 79, 1);
 }
+
 /* /utilities */
 
 /* header */
@@ -142,7 +151,24 @@ nav img{
     top: 20%;
     left: 2%;
 }
-
-
-
+/* customer section */
+.customers img{
+    width: 150px;
+}
 /* /header */
+
+/* main section */
+.services{
+    margin-top: 3.5rem;
+}
+.services h3{
+    font-size: 2rem;
+}
+.services p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+
+
+/* /main section */

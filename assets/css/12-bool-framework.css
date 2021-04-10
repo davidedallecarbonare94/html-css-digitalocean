@@ -110,7 +110,7 @@
 
 /* Small */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
     .col_xs_1 {
         width: calc((100% / 12) * 1);
     }
@@ -184,7 +184,7 @@
 
 /* Medium */
 
-@media screen and (min-width:768px) and (max-width: 991px){
+@media screen and (min-width:481px) and (max-width: 767px){
     .col_md_1 {
         width: calc((100% / 12) * 1);
     }
@@ -258,7 +258,7 @@
 
 /* Large */
 
-@media screen and (min-width:992px){
+@media screen and (min-width:768px){
     .col_lg_1 {
         width: calc((100% / 12) * 1);
     }
