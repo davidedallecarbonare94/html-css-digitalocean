@@ -224,6 +224,7 @@ nav img{
 /* developers section */
 .developers{
     background-color: rgba(243, 245, 249, 1);
+    padding-bottom: 50px;
 }
 .developers h2{
     font-size: 2rem;
@@ -248,6 +249,11 @@ nav img{
 .feature h2{
     font-size: 2rem;
 }
-
+.features [class*="col_"]{
+    padding: 20px;
+}
+.features p{
+    font-size: 14px;
+}
 
 /* /main section */
