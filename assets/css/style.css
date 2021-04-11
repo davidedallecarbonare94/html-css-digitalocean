@@ -17,17 +17,23 @@ body{
     list-style: none;
     padding-bottom: 10px;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 8px;
     color: rgba(127, 138, 163, 1);
 }
 .padd_top{
     padding-top: 30px;
+}
+.padd_top_sm{
+    padding-top: 10px;
 }
 .marg_top{
     margin-top: 50px;
 }
 .marg_bot{
     margin-bottom: 15px;
+}
+.marg_bot_sm{
+    margin-bottom: 10px;
 }
 .align_cent{
     text-align: center;
@@ -51,6 +57,7 @@ body{
 }
 .bg_grey{
     background-color: rgba(243, 245, 249, 1);
+    
 }
 .bg_footer{
     background-color: rgba(3, 28, 78, 1);
@@ -189,9 +196,7 @@ nav img{
     font-size: 1.2rem;
     line-height: 1.5rem;
 }
-.col3 .left{
-    align-self: flex-start;
-}
+
 .col3 .cluster,
 .col3 .one_click,
 .col3 .optimized,
@@ -199,15 +204,49 @@ nav img{
     padding: 20px 20px 0px 20px;
 }
 .col3 .global{
-    padding-top: 36px;
+    padding-top: 48px;
 }
 .col3 img,
 .col3 h4,
 .col3 p{
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 .col3 img{
     width: 40px;
+}
+.four_icons h4{
+    color: rgba(5, 30, 79, 1);
+}
+.four_icons p{
+    color:rgba(127, 138, 163, 1);
+    font-size: 14px;
+}
+/* developers section */
+.developers{
+    background-color: rgba(243, 245, 249, 1);
+}
+.developers h2{
+    font-size: 2rem;
+}
+.developers p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.dev_img img{
+    width: 600px;
+}
+.dev_img .chev_right,
+.dev_img .chev_left{
+    font-size: 2rem;
+}
+.fa-circle{
+    padding: 10px 2.5px;
+
+}
+
+/* features section */
+.feature h2{
+    font-size: 2rem;
 }
 
 
