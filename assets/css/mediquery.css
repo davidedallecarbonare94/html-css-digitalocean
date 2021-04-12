@@ -15,7 +15,7 @@
     }
     
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 425px){
     .flex_container{
         flex-wrap: wrap;
     }
@@ -35,14 +35,11 @@
         font-weight: 600;
         padding:10px 0px
     }
-    h2{
-        font-size: 1rem;
-    }
     .hide{
         display: none;
     }
 }
-@media screen and (min-width: 481px) and (max-width:767px) {
+@media screen and (min-width: 426px) and (max-width:767px) {
     .developers .flex_container{
         flex-wrap: nowrap;
     }

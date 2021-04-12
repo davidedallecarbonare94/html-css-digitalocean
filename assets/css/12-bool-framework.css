@@ -4,7 +4,7 @@
     padding: 0;
 }
 .container{
-    max-width: 1170px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .container_xs{
@@ -114,7 +114,7 @@
 
 /* Small */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 425px) {
     .col_xs_1 {
         width: calc((100% / 12) * 1);
     }
@@ -188,7 +188,7 @@
 
 /* Medium */
 
-@media screen and (min-width:481px) and (max-width: 767px){
+@media screen and (min-width:426px) and (max-width: 767px){
     .col_md_1 {
         width: calc((100% / 12) * 1);
     }

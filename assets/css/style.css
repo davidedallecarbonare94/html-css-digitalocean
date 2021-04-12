@@ -373,3 +373,44 @@ footer img{
 .bg_footer ul li a{
     font-size: 14px;
 }
+.fixed{
+    width: 20%;
+    position: fixed;
+    bottom: 20px;
+    right: 70px;
+}
+.shark_text{
+    font-size: 14px;
+    color: rgba(5, 30, 79, 1);
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+.shark img{
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgba(0, 106, 255, 1);
+    width: 50px;
+    position: fixed;
+    right: 14px;
+    bottom: 20px;
+}
+.notifications{
+    position: fixed;
+    bottom: 45px;
+    right: 8px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+}
+.angle{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    transform: rotate(45deg);
+    position: fixed;
+    bottom: 37px;
+    right: 67px;
+}
