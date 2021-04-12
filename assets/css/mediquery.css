@@ -20,16 +20,32 @@
         flex-wrap: wrap;
     }
     .container_md{
-        width: 98%;
+        width: 95%;
     }
     .container_sm{
-        width: 98%;
+        width: 95%;
     }
     .white_container_sm {
         width: 70%;
     }
+    .customers img{
+        width: 150px;
+    }
+    .dev_img img{
+        width: 300px;
+    }
     .col3 .global{
         padding-top: 20px;
+    }
+    .code{
+        width: 13%;
+    }
+    .city{
+        width: 55%;
+        color: rgba(255, 255, 255, 0.75);
+    }
+    .test{
+        width: 24%;
     }
     .bg_footer ul li:first-of-type{
         font-weight: 600;
@@ -38,9 +54,63 @@
     .hide{
         display: none;
     }
+    .fixed{
+        width: 65%;
+        position: fixed;
+        bottom: 20px;
+        left: 33px;
+    }
+    .shark img{
+        position: fixed;
+        left: 33px;
+        bottom: 75px;
+    }
+    .notifications{
+        position: fixed;
+        bottom: 100px;
+        right: 330px;
+    
+    }
+    .angle{
+        position: fixed;
+        bottom: 30px;
+        left: 303px;
+    }
 }
 @media screen and (min-width: 426px) and (max-width:767px) {
     .developers .flex_container{
         flex-wrap: nowrap;
+    }
+    .container_md{
+        width: 90%;
+    }
+    .fixed{
+        width: 50%;
+        position: fixed;
+        bottom: 20px;
+        left: 50px;
+    }
+    .shark img{
+        position: fixed;
+        left: 50px;
+        bottom: 75px;
+    }
+    .notifications{
+        position: fixed;
+        bottom: 100px;
+        right: 660px;
+    
+    }
+    .angle{
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        transform: rotate(45deg);
+        position: fixed;
+        bottom: 30px;
+        left: 420px;
+    }
+    .white_container_sm{
+        width: 60%;
     }
 }    
