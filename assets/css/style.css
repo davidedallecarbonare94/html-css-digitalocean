@@ -13,6 +13,25 @@ body{
     display: flex;
     flex-direction: column;
 }
+.hamburger{
+    text-align: right;
+    color:rgba(61, 147, 253, 1);
+    font-size: 30px;
+}
+.disp_none{
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .disp_none{
+        display: inline-block;
+    }
+    .no_style_left,
+    .no_style_right{
+        display: none;
+    }
+
+    
+}
 .no_style li{
     list-style: none;
     padding-bottom: 10px;
@@ -255,5 +274,27 @@ nav img{
 .features p{
     font-size: 14px;
 }
-
+/* server section */
+.server{
+    color: white;
+}
+.code{
+    width: 15%;
+}
+.city{
+    width: 60%;
+}
+.test{
+    width: 22%;
+}
+.code,
+.city,
+.test{
+    display: inline-block;
+    padding:10px 0px;
+}
+.position{
+    border-bottom: 1px solid white;
+    padding: 5px;
+}
 /* /main section */
