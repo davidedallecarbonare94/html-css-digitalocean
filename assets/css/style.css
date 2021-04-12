@@ -310,6 +310,9 @@ nav img{
     border-bottom: 1px solid white;
 }
 /* rockerbox */
+.rockerbox h2{
+    font-size: 2rem;
+}
 .container_sm .chev_left{
     text-align: right;
 }
@@ -346,7 +349,5 @@ nav img{
 .btn a{
     font-size: 12px;
 }
-
-
 
 /* /main section */
