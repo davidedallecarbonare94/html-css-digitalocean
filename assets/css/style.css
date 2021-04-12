@@ -349,5 +349,31 @@ nav img{
 .btn a{
     font-size: 12px;
 }
-
 /* /main section */
+/* footer */
+footer img{
+    width: 40px;
+    padding-bottom: 8px;
+}
+#year{
+    font-size: 12px;
+}
+#proudly{
+    font-size: 10px;
+    color: rgba(127, 138, 163, 1);
+    padding-bottom: 10px;
+}
+.social_icons i{
+    font-size: 16px;
+    padding-right: 12px;
+    color: rgba(127, 138, 163, 1);
+}
+.bg_footer ul li:first-of-type{
+    font-weight: 600;
+}
+.bg_footer ul li{
+    padding: 3px 0px;
+}
+.bg_footer ul li a{
+    font-size: 14px;
+}
