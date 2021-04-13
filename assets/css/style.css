@@ -134,7 +134,7 @@ nav img{
 .jumbotron{
     background-size: cover;
     background-repeat:repeat-x;
-    background-image: url(/assets/img/bg-banner-home.jpg);
+    background-image: url(../img/bg-banner-home.jpg);
     padding: 2.5rem 0rem;
 
 }
